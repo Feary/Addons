@@ -1,10 +1,11 @@
 <?xml version="1.1" ?>
 <settings>
-	<global>
+    <global>
         <options>
             <message_printing>false</message_printing>
         </options>
         <strings>
+            <abyssea>xp.current..&apos;/&apos;..xp.tnl..&apos;XP &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;/&apos;..lp.maximum_merits..&apos;] XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k Amber:&apos;..(abyssea.amber or 0)..&apos;/Azure:&apos;..(abyssea.azure or 0)..&apos;/Ruby:&apos;..(abyssea.ruby or 0)..&apos;/Pearlescent:&apos;..(abyssea.pearlescent or 0)..&apos;/Ebon:&apos;..(abyssea.ebon or 0)..&apos;/Silvery:&apos;..(abyssea.silvery or 0)..&apos;/Golden:&apos;..(abyssea.golden or 0)..&apos;/Time Remaining:&apos;..(abyssea.time_remaining or 0)</abyssea>
             <default>xp.current..&apos;/&apos;..xp.tnl..&apos;XP &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;] XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k &apos;..cp.current..&apos;/&apos;..cp.tnjp..&apos;CP [&apos;..cp.number_of_job_points..&apos;] CP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(cp.rate/100)/10)..&apos;k&apos;</default>
             <dynamis>xp.current..&apos;/&apos;..xp.tnl..&apos;XP &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;] XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k &apos;..cp.current..&apos;/&apos;..cp.tnjp..&apos;CP [&apos;..cp.number_of_job_points..&apos;] &apos;..dynamis.KIs..&apos; &apos;..dynamis.time_remaining</dynamis>
         </strings>
@@ -19,6 +20,7 @@
             <flags>
                 <bold>false</bold>
                 <bottom>false</bottom>
+                <draggable>true</draggable>
                 <italic>false</italic>
                 <right>false</right>
             </flags>
@@ -32,100 +34,104 @@
                 <blue>255</blue>
                 <font>Consolas</font>
                 <fonts>
+
                 </fonts>
                 <green>255</green>
                 <red>255</red>
                 <size>12</size>
+                <stroke>
+                    <alpha>1.2485413254494e+036</alpha>
+                    <blue>0</blue>
+                    <green>0</green>
+                    <red>0</red>
+                    <width>0</width>
+                </stroke>
             </text>
         </text_box_settings>
-	</global>
-	<aniyah>
-        <strings>
-            <default>xp.current..&apos;/&apos;..xp.tnl..&apos;XP   &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;]   XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k   &apos;..cp.current..&apos;/&apos;..cp.tnjp..&apos;CP [&apos;..cp.number_of_job_points..&apos;]   CP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(cp.rate/100)/10)..&apos;k&apos;</default>
-            <dynamis>xp.current..&apos;/&apos;..xp.tnl..&apos;XP   &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;]   XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k   &apos;..cp.current..&apos;/&apos;..cp.tnjp..&apos;CP [&apos;..cp.number_of_job_points..&apos;]   &apos;..dynamis.KIs..&apos;  &apos;..dynamis.time_remaining</dynamis>
-        </strings>
+    </global>
+    <aniyah>
         <text_box_settings>
             <pos>
-                <x>2</x>
-                <y>751</y>
-            </pos>
-            <text>
-                <fonts>
-                </fonts>
-                <size>9</size>
-            </text>
-        </text_box_settings>
-	</aniyah>
-	<derion>
-        <text_box_settings>
-            <pos>
-                <x>2</x>
-                <y>751</y>
+                <x>813</x>
+                <y>748</y>
             </pos>
             <text>
                 <size>9</size>
             </text>
         </text_box_settings>
-	</derion>
-	<feary>
+    </aniyah>
+    <derion>
         <text_box_settings>
             <pos>
-                <x>2</x>
-                <y>751</y>
+                <x>816</x>
+                <y>730</y>
             </pos>
             <text>
                 <size>9</size>
             </text>
         </text_box_settings>
-	</feary>
-	<fearyjunior>
-        <strings>
-            <default>xp.current..&apos;/&apos;..xp.tnl..&apos;XP   &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;]   XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k   &apos;..cp.current..&apos;/&apos;..cp.tnjp..&apos;CP [&apos;..cp.number_of_job_points..&apos;]   CP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(cp.rate/100)/10)..&apos;k&apos;</default>
-            <dynamis>xp.current..&apos;/&apos;..xp.tnl..&apos;XP   &apos;..lp.current..&apos;/&apos;..lp.tnm..&apos;LP [&apos;..lp.number_of_merits..&apos;]   XP/hr:&apos;..string.format(&apos;%.1f&apos;,math.floor(xp.rate/100)/10)..&apos;k   &apos;..cp.current..&apos;/&apos;..cp.tnjp..&apos;CP [&apos;..cp.number_of_job_points..&apos;]   &apos;..dynamis.KIs..&apos;  &apos;..dynamis.time_remaining</dynamis>
-        </strings>
+    </derion>
+    <feary>
         <text_box_settings>
             <pos>
-                <x>2</x>
-                <y>751</y>
-            </pos>
-            <text>
-                <fonts>
-                </fonts>
-                <size>9</size>
-            </text>
-        </text_box_settings>
-	</fearyjunior>
-	<firetoplay>
-        <text_box_settings>
-            <pos>
-                <x>2</x>
+                <x>791</x>
                 <y>751</y>
             </pos>
             <text>
                 <size>9</size>
             </text>
         </text_box_settings>
-	</firetoplay>
-	<watitdew>
+    </feary>
+    <fearyjunior>
         <text_box_settings>
             <pos>
-                <x>2</x>
-                <y>751</y>
+                <x>879</x>
+                <y>752</y>
             </pos>
             <text>
                 <size>9</size>
             </text>
         </text_box_settings>
-	</watitdew>
-	<worldkiller>
+    </fearyjunior>
+    <firetoplay>
         <text_box_settings>
             <pos>
-                <x>2</x>
-                <y>751</y>
+                <x>859</x>
+                <y>750</y>
             </pos>
             <text>
                 <size>9</size>
             </text>
         </text_box_settings>
-	</worldkiller>
+    </firetoplay>
+    <swagg>
+        <text_box_settings>
+            <pos>
+                <x>793</x>
+                <y>751</y>
+            </pos>
+        </text_box_settings>
+    </swagg>
+    <watitdew>
+        <text_box_settings>
+            <pos>
+                <x>888</x>
+                <y>752</y>
+            </pos>
+            <text>
+                <size>9</size>
+            </text>
+        </text_box_settings>
+    </watitdew>
+    <worldkiller>
+        <text_box_settings>
+            <pos>
+                <x>877</x>
+                <y>752</y>
+            </pos>
+            <text>
+                <size>9</size>
+            </text>
+        </text_box_settings>
+    </worldkiller>
 </settings>

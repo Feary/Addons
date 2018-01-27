@@ -1,23 +1,27 @@
-<?xml version="1.0" ?>
-<!-- For the output customization lines, ${actor} denotes a value to be replaced. The options are actor, number, abil, and target.
-	 Options for other modes are either "true" or "false". Other values will not be interpreted.-->
+<?xml version="1.1" ?>
 <settings>
-	<global>
-		<condensedamage>true</condensedamage>
-		<condensebattle>true</condensebattle>
-		<condensebuffs>true</condensebuffs>
-		<cancelmulti>true</cancelmulti>
-		<oxford>true</oxford>
-		<commamode>false</commamode>
-		<supersilence>true</supersilence>
-		<targetnumber>true</targetnumber>
-		
-		
-		<line_full>[${actor}] ${number} ${abil} ¨ ${target}</line_full>
-		<line_noactor>${abil} ${number} ¨ ${target}</line_noactor>
-		<line_nonumber>[${actor}] ${abil} ¨ ${target}</line_nonumber>
-		<line_noabil>AOE ${number} ¨ ${target}</line_noabil>
-		<line_aoebuff>${actor} ${abil} ¨ ${target} (${status})</line_aoebuff>
-		<line_roll>${actor} ${abil} ¨ ${target} ª ${number}</line_roll>
-	</global>
+    <global>
+        <cancelmulti>true</cancelmulti>
+        <commamode>false</commamode>
+        <condensebattle>true</condensebattle>
+        <condensebuffs>true</condensebuffs>
+        <condensecrits>false</condensecrits>
+        <condensedamage>true</condensedamage>
+        <condensetargets>true</condensetargets>
+        <line_aoe>AOE ${numb} ¨ ${target}</line_aoe>
+        <line_aoebuff>${actor} ${abil} ¨ ${target} (${status})</line_aoebuff>
+        <line_full>[${actor}] ${number} ${abil} ¨ ${target}</line_full>
+        <line_item>[${actor}] ${abil} ¨ ${target} (${item2})</line_item>
+        <line_itemnum>[${actor}] ${abil} ¨ ${target} (${numb} ${item2})</line_itemnum>
+        <line_noabil>AOE ${number} ¨ ${target}</line_noabil>
+        <line_noability>${numb} ¨ ${target}</line_noability>
+        <line_noactor>${abil} ${number} ¨ ${target}</line_noactor>
+        <line_nonumber>[${actor}] ${abil} ¨ ${target}</line_nonumber>
+        <line_roll>${actor} ${abil} ¨ ${target} ª ${number}</line_roll>
+        <oxford>true</oxford>
+        <sumdamage>true</sumdamage>
+        <supersilence>true</supersilence>
+        <swingnumber>true</swingnumber>
+        <targetnumber>true</targetnumber>
+    </global>
 </settings>

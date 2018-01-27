@@ -12,7 +12,7 @@
 				<slot05>heavy strike</slot05>				
 				<slot06>thrashing assault</slot06>
 				<slot07>sudden lunge</slot07>
-				<slot08>Nat. Mediation</slot08>
+				<slot08>Nat. Meditation</slot08>
 				<slot09>erratic flutter</slot09>
 				<slot10>Battery Charge</slot10>
 				<slot11>winds of promy.</slot11>
@@ -31,7 +31,7 @@
 				<slot05>heavy strike</slot05>				
 				<slot06>thrashing assault</slot06>
 				<slot07>sudden lunge</slot07>
-				<slot08>Nat. Mediation</slot08>
+				<slot08>Nat. Meditation</slot08>
 				<slot09>erratic flutter</slot09>
 				<slot10>Battery Charge</slot10>
 				<slot11>winds of promy.</slot11>
@@ -115,8 +115,7 @@
 				<slot13>battery charge</slot13>
 				<slot14>Delta Thrust</slot14>
 				<slot15>Barbed Crescent</slot15>
-				<slot16>Erratic Flutter</slot16>
-				
+				<slot16>Erratic Flutter</slot16>				
 			</aoe>
 			<dd>
 				<slot01>quad. continuum</slot01>
@@ -126,7 +125,7 @@
 				<slot05>heavy strike</slot05>				
 				<slot06>thrashing assault</slot06>
 				<slot07>sudden lunge</slot07>
-				<slot08>Nat. Mediation</slot08>
+				<slot08>Nat. Meditation</slot08>
 				<slot09>erratic flutter</slot09>
 				<slot10>Battery Charge</slot10>
 				<slot11>winds of promy.</slot11>
@@ -147,7 +146,7 @@
 				<slot07>sudden lunge</slot07>
 				<slot08>Glutinous Dart</slot08>
 				<slot09>Sweeping Gouge</slot09>
-				<slot10>Nat. Mediation</slot10>
+				<slot10>Nat. Meditation</slot10>
 				<slot11>Erratic Flutter</slot11>
 				<slot12>winds of promy.</slot12>
 				<slot13>White Wind</slot13>
@@ -165,7 +164,7 @@
 				<slot05>heavy strike</slot05>
 				<slot06>thrashing assault</slot06>
 				<slot07>sudden lunge</slot07>
-				<slot08>glutinous dart<slot08>
+				<slot08>glutinous dart</slot08>
 				<slot09>sinker drill</slot09>
 				<slot10>sweeping gouge</slot10>
 				<slot11>paralyzing triad</slot11>
@@ -176,7 +175,7 @@
 				<slot17>dream flower</slot17>
 				<slot18>Diffusion Ray</slot18>
 				<slot19>molting plumage</slot19>
-				<slot20>blazing bound</slot20>								
+				<slot20>blazing bound</slot20>							
 			</dd100>
 			<zahak>
 				<slot01>delta thrust</slot01>

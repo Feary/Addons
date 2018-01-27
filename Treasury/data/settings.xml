@@ -1,8 +1,12 @@
 <?xml version="1.1" ?>
 <settings>
-	<global>
-        <AutoDrop>false</AutoDrop>
-        <Lot />
-        <Pass />
-	</global>
+    <global>
+        <AutoDrop>true</AutoDrop>
+        <AutoStack>true</AutoStack>
+        <Delay>0</Delay>
+        <Drop>Onion Staff,Medusa&apos;s Armlet,Flan Meat,Aedold +1,Fierce Belt,Bedivere&apos;s Hose,Resilient Mane,Obl. Abjuration,Rusty Bucket,Setae Ring,New Moon Armlets,Luminian Tissue,Iizamal +1,Xzomit Organ,Hpemde Organ,Yovra Organ,Phuabo Organ</Drop>
+        <Lot>Hpemde Organ,Luminian Tissue,Aern Organ,Yovra Organ,Xzomit Organ</Lot>
+        <Pass>Slime Oil,Saotome Kote,Bard&apos;s Cuffs,Odious Scale,Odious Grenade,Burning Fists,Xzomit Organ,Scout&apos;s Braccae,Duelist&apos;s Tights,Monster Jackcoat,Inferno Claws,Phuabo Organ,Aern Organ,Odious Strongbox,Death Sickle,Odious Letterbox,Werebuster,Argute Pants,Comm. Bottes,Radiant Lance,Odious Blood,Odious Horn,Duelist&apos;s Gloves,Lizard Tail,Sturdy Axe,Dancing Dagger,Lizard Skin,Killer Bow,Duelist&apos;s Boots,Odious Cup,Odious Talisman,Summoner&apos;s Pgch.,Odious Holy Wtr.,Hpemde Organ,Sorcerer&apos;s Tonban,Odious Necklace,Odious Quipu,Yovra Organ,Odious Skull,Valor Leggings,Odious Root,Odious Cryptex,Summoner&apos;s Spats,Saotome Haidate,Melee Hose,Wightslayer,Scepter Staff,Odious Backscale,Odious Bell,Odious Leather,Odious Charm,Odious Mask,Warrior&apos;s Mask,Odious Die,Pantin Babouches,Odious Pen,Pantin Churidars,Luminian Tissue,Abyss Gauntlets,Odious Feather,Divine Bijou,Elder Staff,Odious Engraving,Odious Mirror</Pass>
+        <Verbose>false</Verbose>
+    </global>
 </settings>
