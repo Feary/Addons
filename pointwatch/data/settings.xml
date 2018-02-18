@@ -74,8 +74,8 @@
     <feary>
         <text_box_settings>
             <pos>
-                <x>791</x>
-                <y>751</y>
+                <x>798</x>
+                <y>735</y>
             </pos>
             <text>
                 <size>9</size>
@@ -126,8 +126,8 @@
     <worldkiller>
         <text_box_settings>
             <pos>
-                <x>877</x>
-                <y>752</y>
+                <x>883</x>
+                <y>748</y>
             </pos>
             <text>
                 <size>9</size>
