@@ -63,8 +63,8 @@
     <derion>
         <text_box_settings>
             <pos>
-                <x>816</x>
-                <y>730</y>
+                <x>380</x>
+                <y>2</y>
             </pos>
             <text>
                 <size>9</size>
@@ -74,8 +74,8 @@
     <feary>
         <text_box_settings>
             <pos>
-                <x>798</x>
-                <y>735</y>
+                <x>361</x>
+                <y>1</y>
             </pos>
             <text>
                 <size>9</size>
@@ -115,8 +115,8 @@
     <watitdew>
         <text_box_settings>
             <pos>
-                <x>888</x>
-                <y>752</y>
+                <x>407</x>
+                <y>2</y>
             </pos>
             <text>
                 <size>9</size>
