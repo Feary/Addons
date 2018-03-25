@@ -8,7 +8,7 @@
                 <green>255</green>
                 <red>255</red>
             </color>
-            <visible>true</visible>
+            <visible>false</visible>
         </gilImage>
         <gilText>
             <bg>
@@ -25,8 +25,8 @@
                 <right>true</right>
             </flags>
             <pos>
-                <x>-1690</x>
-                <y>-332</y>
+                <x>-1</x>
+                <y>-15</y>
             </pos>
             <text>
                 <alpha>255</alpha>
