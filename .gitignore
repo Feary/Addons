@@ -213,3 +213,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+AnnounceTarget/ReadMe.md
+*.md
+giltracker/giltracker.lua
+*.png

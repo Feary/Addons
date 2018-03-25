@@ -60,4 +60,10 @@
             </stroke>
         </text>
     </derion>
+    <feary>
+        <pos>
+            <x>1732</x>
+            <y>21</y>
+        </pos>
+    </feary>
 </settings>
