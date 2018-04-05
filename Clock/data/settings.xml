@@ -52,8 +52,7 @@
     <akili>
         <Clock>
             <pos>
-                <x>854</x>
-                <y>1</y>
+                <x>1033</x>
             </pos>
             <text>
                 <stroke>
@@ -169,7 +168,7 @@
             </pos>
             <text>
                 <stroke>
-                    <alpha>-1.780826700661e+019</alpha>
+                    <alpha>-1.780826700661e+19</alpha>
                 </stroke>
             </text>
         </Clock>
@@ -185,7 +184,7 @@
             </pos>
             <text>
                 <stroke>
-                    <alpha>-2.7386800471527e+014</alpha>
+                    <alpha>-2.7386800471527e+14</alpha>
                 </stroke>
             </text>
         </Clock>
@@ -260,8 +259,8 @@
     <swagg>
         <Clock>
             <pos>
-                <x>847</x>
-                <y>2</y>
+                <x>985</x>
+                <y>-1</y>
             </pos>
             <text>
                 <stroke>
